@@ -169,5 +169,28 @@ li {
     border-radius: 8px;
     padding: 20px; 
     text-align: center; /* Center text */
-    flex: auto; /* allow boxes to grow and shrink */
+    flex: auto; /* fit nicely */
+    transform: transform 0.3s ease;
+}
+/* make the boxes look nice */
+.service-boxes li:hover {
+    transform: scale(1.05);
+    background-color: #1b1b1b; /* change color when hovered */
+    cursor: pointer; /* make it look like a button */
+}
+h1 {
+  font-size: 400%;
+}
+
+h2 {
+  font-size: 300%;
+}
+
+h3 {
+  font-size: 200%;
+}
+
+p {
+  font-size: 150%;
+  line-height: 1.5; /* Space */
 }
