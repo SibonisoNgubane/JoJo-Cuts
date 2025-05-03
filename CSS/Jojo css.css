@@ -1,0 +1,173 @@
+/* sorry sir the nav menu you provied was not working so I made my own */
+/* I hope this is ok */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+      display: block; /* hamburger button */
+  }
+
+  .nav-links {
+      display: none;
+  }
+
+  .nav-links.active {
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+header {
+    display: flex; /* horizontal layout */
+    justify-content: space-between; /* space between logo and nav*/
+    align-items: center; /* align nav properly */
+    padding: 10px;
+  }
+  
+  header img {
+    width: 40px;
+    height: auto;
+  }
+  
+  header ul {
+    padding: 0;
+    margin: 0;
+    display: flex; /* Row */
+  }
+  
+  header ul li {
+    margin: 0 15px;
+  }
+  
+  header ul li a {
+    color: white;
+    text-decoration: none;
+  }
+/* font color and family */
+body {
+  color: rgb(255, 255, 255);
+  font-family: Verdana,;
+}
+
+header, main, footer, p{
+  text-align: center;
+}
+
+header img {
+  width: 120px;
+  height: 120px;
+}
+
+header ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header ul li a {
+  color: white;
+}
+
+footer {
+  color: white;
+}
+.split-container {
+    display: flex;
+    justify-content: space-between; /* space between left and right content */
+    align-items: center;
+    padding: 20px;
+}
+
+.left-content {
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+.right-content {
+    flex: 1;
+    text-align: center;
+}
+
+.right-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners */
+}
+/* ajusting images to not look weird */
+  .gallery img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+.gallery {
+  display: grid;
+  /* sort images in a grid */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.gallery img {
+  max-width: 180%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.gallery figure {
+  text-align: center;
+}
+
+li {
+  margin-bottom: 10px;
+  line-height: 1.5; /* Space */
+  font-size: 1.2em;
+}
+/* backround animation */
+  body {
+    margin: 0;
+    height: 100vh; /* it page */
+    background: linear-gradient(270deg, #929292, #1b1b1b, #000000);
+    background-size: 600% 600%;
+    animation: gradientShift 10s ease infinite;
+  }
+/* animation speed */
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+/* make services appear in boxes */
+/* could make these into buttons down the line */
+  .service-boxes {
+    display: flex;
+    flex-wrap: wrap; /* go to next line */
+    gap: 16px;
+    list-style: none; /* Remove bullet points */
+    margin: 16px;
+}
+
+.service-boxes li {
+    background-color: #949494;
+    border-radius: 8px;
+    padding: 20px; 
+    text-align: center; /* Center text */
+    flex: auto; /* allow boxes to grow and shrink */
+}
