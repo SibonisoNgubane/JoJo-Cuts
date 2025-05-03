@@ -1,6 +1,7 @@
 # Jojo Cuts
 
 This is a website dedicated to showcasing my a ability to create a responsive web design
+
 I am currently in part 2 of this Project (CSS and mobile responsiveness)
 
 ## Changes
