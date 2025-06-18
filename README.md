@@ -33,7 +33,7 @@ Commited work (Sorry it's late)
 Finalized work
 
 ### 16 July 2025
-Implemented interactive elements (modal)
+Implemented interactive elements (modals)
 
 ## Student
 No: ST10487418
