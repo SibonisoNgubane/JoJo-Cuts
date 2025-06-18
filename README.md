@@ -13,7 +13,10 @@ Created HTML structure
 Organised my files
 
 ### 01 May 2025
-Removed in-line CSS elements from html and created a dedicated CSS stylesheet
+Removed in-line CSS elements from html
+
+Created a dedicated CSS stylesheet
+
 Added CSS elelments to highlight website images
 
 ### 02 May 2025
