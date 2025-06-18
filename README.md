@@ -7,7 +7,9 @@ I am currently in part 2 of this Project (CSS and mobile responsiveness)
 ## Changes
 ### 23 April 2025
 Planned Project
+
 Created HTML structure
+
 Organised my files
 
 ### 01 May 2025
