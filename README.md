@@ -32,7 +32,7 @@ Commited work (Sorry it's late)
 
 Finalized work
 
-## 16 July 2025
+### 16 July 2025
 Implemented interactive elements (modal)
 
 ## Student
