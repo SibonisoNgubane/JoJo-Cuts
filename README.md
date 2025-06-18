@@ -5,6 +5,10 @@ This is a website dedicated to showcasing my a ability to create a responsive we
 I am currently in part 2 of this Project (CSS and mobile responsiveness)
 
 ## Changes
+### 23 April 2025
+Planned Project
+Created HTML structure
+Organised my files
 
 ### 01 May 2025
 Removed in-line CSS elements from html and created a dedicated CSS stylesheet
