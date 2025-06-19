@@ -47,6 +47,15 @@ Created Sitemap.xml to help with SEO
 
 Created Enquiry form on Service page
 
+## References
+Google For Developers: https://developers.google.com/search/docs/crawling-indexing/robots/intro#:~:text=A%20robots.txt%20file%20tells,web%20page%20out%20of%20Google.
+
+Google Forms: https://docs.google.com/forms/
+
+Octopus.do: https://octopus.do/sitemap/generator
+
+FreeCodeCamp: https://www.freecodecamp.org/
+
 ## Student
 No: ST10487418
 
