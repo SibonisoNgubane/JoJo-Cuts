@@ -38,6 +38,15 @@ Finalized work
 ### 16 July 2025
 Implemented interactive elements (modals)
 
+Created Backlinks to other social media
+
+Created Robots.txt
+
+###19 July 2025
+Created Sitemap.xml to help with SEO
+
+Created Enquiry form on Service page
+
 ## Student
 No: ST10487418
 
