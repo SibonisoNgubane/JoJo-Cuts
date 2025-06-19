@@ -2,7 +2,7 @@
 
 This is a website dedicated to showcasing my a ability to create a responsive web design
 
-I am currently in part 2 of this Project (CSS and mobile responsiveness)
+I am currently in part 3 of this Project (CSS and mobile responsiveness)
 
 ## Changes
 ### 23 April 2025
